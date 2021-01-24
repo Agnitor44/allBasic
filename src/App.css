@@ -1,38 +1,243 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+header {
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  height: 7vh;
+  background-color: #5c4ed6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  -webkit-box-shadow: 2px 2px 9px 0px rgba(50, 50, 50, 0.75);
+          box-shadow: 2px 2px 9px 0px rgba(50, 50, 50, 0.75);
+}
+
+header a {
+  color: black;
+}
+
+.appCont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.appCont div.game {
+  width: 90%;
+  height: 20vh;
+  margin: 2% 0;
+  background-color: #5c4ed6;
+  border-radius: 20px;
+  -webkit-box-shadow: 2px 2px 9px 0px rgba(50, 50, 50, 0.75);
+          box-shadow: 2px 2px 9px 0px rgba(50, 50, 50, 0.75);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.appCont div.game div.zdj1 {
+  width: 40%;
+  height: 90%;
+  border: 2px solid black;
+  background-image: url("./img/1App.jpg");
+  background-size: contain;
+}
+
+.appCont div.game div.zdj2 {
+  width: 40%;
+  height: 90%;
+  border: 2px solid black;
+  background-image: url("./img/app2.jpg");
+  background-size: cover;
+}
+
+.appCont div.game div.zdj3 {
+  width: 40%;
+  height: 90%;
+  border: 2px solid black;
+  background-image: url("./img/app3.jpg");
+  background-size: cover;
+}
+
+.appCont div.game div.zdj4 {
+  width: 40%;
+  height: 90%;
+  border: 2px solid black;
+  background-size: cover;
+  background-image: url("./img/app4.jpg");
+}
+
+.appCont div.game div.zdj5 {
+  width: 40%;
+  height: 90%;
+  border: 2px solid black;
+  background-image: url("./img/app5.jpg");
+  background-size: cover;
+}
+
+.appCont div.game div.wrap {
+  height: 100%;
+  padding: 5%;
+  width: 60%;
+}
+
+a {
+  color: black;
+}
+
+.note {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.note h1 {
+  font-size: 46px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  margin: 2%;
+}
+
+.note div.formNote {
+  width: 100%;
+}
+
+.note div.formNote form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.note div.formNote form textarea {
+  width: 60%;
+  height: 10vh;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.note div.formNote form button {
+  width: 20%;
+  height: 10vh;
+  background-color: #5c4ed6;
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.note div.formNote form button:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  font-size: 42px;
+}
+
+.note div.cardCont {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.note div.cardCont div.cardFormation {
+  width: 40%;
+  margin: 2.5%;
+  padding: 0%;
+  background-color: #cecece;
+  -webkit-box-shadow: 2px 2px 9px 0px rgba(50, 50, 50, 0.75);
+          box-shadow: 2px 2px 9px 0px rgba(50, 50, 50, 0.75);
+  padding: 1%;
+  cursor: pointer;
+}
+
+.note div.cardCont div.cardFormation article {
+  overflow-wrap: break-word;
+}
+
+.note div.cardCont div.cardFormation article p {
+  font-size: 26px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.note div.cardCont div.cardFormation button {
+  background-color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 9999px;
+}
+
+.note div.cardCont div.cardFormation button:nth-child(3) {
+  background-color: #df2f2f;
+  float: right;
+}
+
+.bigCard {
+  width: 60%;
+  height: 30vh;
+  margin-top: 20vh;
+  background-color: #fff;
+  -webkit-box-shadow: 2px 2px 9px 0px rgba(50, 50, 50, 0.75);
+          box-shadow: 2px 2px 9px 0px rgba(50, 50, 50, 0.75);
+  border: none;
+  border-radius: 20px;
+}
+
+.bigCard article {
+  overflow-wrap: break-word;
+  padding: 3%;
+}
+
+.bigCard article p {
+  font-size: 26px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/*# sourceMappingURL=App.css.map */

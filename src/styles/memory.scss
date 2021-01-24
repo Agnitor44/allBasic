@@ -1,0 +1,253 @@
+.allMemo {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .memo {
+        width: 20%;
+        height: 30vh;
+        background-color:rgb(92, 78, 214);
+        margin: 2%;
+    }
+}
+.listCont {
+    width: 100%;
+    position: relative;
+ .listCreator {
+    width: 60%;
+
+
+
+     form {
+        width: 100%;
+        font-family: 'Roboto', sans-serif;
+        margin: 5% 0;
+        height: 15vh;
+        border-radius: 20px;
+        background-color:  rgb(92, 78, 214);
+        display: flex;
+        justify-content: space-between;
+            align-items: center;
+            div.col {
+                display: flex;
+                flex-direction: column;
+                h1 {
+                    text-align: center;
+                }
+                   input {
+                      height: 3vh;
+                       &:nth-child(1) {
+                          width: 50%;
+                         
+                       }
+                    
+                   }
+               
+               }
+               button {
+                font-size: 30px;
+                padding: 10px 20px;
+                font-family: 'Roboto', sans-serif;
+                text-transform: uppercase;
+                font-weight: bold;
+                background-color: white;
+                border: none;
+                border-radius: 999px;
+                cursor: pointer;
+                transition: 0.4s;
+                &:hover {
+                    transform: scaleY(0.95) scaleX(1.05);
+                }
+               }
+           }
+            }
+    div.toBeDone {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        div.desc {
+           
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            background-color:  rgb(92, 78, 214);
+            border-bottom: 2px solid black;
+            align-items: center;
+           div {
+               width: 100%;
+               h1 {
+                text-align: center;
+               }
+           }
+        }
+        div.one {
+
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            border-bottom: 2px solid black;
+            border-left: 2px solid black;
+            border-right: 2px solid black;
+         
+            div.dataList {
+               display: flex;
+               border-right: 2px solid black;
+                width: 100%;
+                &:nth-child(5) {
+                    border: none;
+                }
+                button {
+                    padding: 3px;
+                    font-family: 'Roboto', sans-serif;
+                    border: none;
+                    background-color:rgb(128, 116, 236);
+                    font-weight: bold;
+                    border-radius: 999px;
+                    cursor: pointer;
+                    transition: 0.4s;
+                    &:hover {
+                        transform: scaleY(0.95) scaleX(1.05);
+                    }
+                }
+                h2 {
+                    text-align: center;
+                }
+               
+            }
+        }
+    }
+}
+.whatHaveIDone {
+    position: absolute;
+    left: 1%;
+    font-size: 18px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 999px;
+    background-color: rgb(128, 116, 236);
+    cursor: pointer;
+    transition: 0.4s;
+    &:hover {
+        transform: scaleY(0.95) scaleX(1.05);
+    }
+}
+
+
+
+div.weatherCont {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 5vh;
+ 
+    font-family: 'Roboto', sans-serif;
+    .currWeather  {
+        padding: 3% 0;
+        width: 50%;
+        height: 100%;
+        background-color: blanchedalmond;
+        display: flex;
+        flex-direction: column;
+        max-width: 400px;
+        align-items: center;
+        text-align: center;
+        border-radius: 20px;
+        box-shadow: 2px 2px 9px 0px rgba(50, 50, 50, 0.75);
+    }
+    img {
+      
+    }
+    h1.city {
+        font-size: 40px;
+        letter-spacing: 2px;
+        margin: 1%;
+    }
+    h2 {
+        font-size: 18px;
+        margin: 1%;
+    }
+    h1.stopnie {
+        font-size: 50px;
+        margin: 1%;
+      
+    }
+    h1.des {
+        margin: 1%;
+    }
+    h3 {
+        margin: 3% 0;
+    }
+    button.newWeather {
+        border: none;
+        font-size: 20px;
+        padding: 8px 18px;
+        border-radius: 90999px;
+        margin: 4%;
+        cursor: pointer;
+        transition: 0.4s;
+        &:hover {
+            transform: scaleX(0.95) scaleY(0.95);
+        }
+    }
+    h1.cityInput {
+        text-align: center;
+        font-size: 35px;
+        margin: 1%;
+    }
+    form {
+        display: flex;
+        input {
+height: 35px;
+        }
+        button {
+            background-color: rgb(128, 116, 236);
+            font-weight: bold;
+            font-size: 26px;
+            line-height: 35px;
+            padding: 0 10px;
+            border: none;
+
+        }
+    }
+}
+
+
+div.currencyCont {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 4% 0;
+    div.ustawienie {
+        display: flex;
+       
+       div {
+           display: flex;
+           justify-content: center;
+           flex-direction: column;
+        input {
+            width: 50%;
+            font-size: 16px;
+        }
+        h1 {
+        text-align: center;
+    
+        }
+       } 
+    
+
+    }
+  
+    div.wyniki {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        h1 {
+           margin: 5%;
+        }
+    }
+}

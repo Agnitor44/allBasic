@@ -1,0 +1,348 @@
+.allMemo {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.allMemo .memo {
+  width: 20%;
+  height: 30vh;
+  background-color: #5c4ed6;
+  margin: 2%;
+}
+
+.listCont {
+  width: 100%;
+  position: relative;
+}
+
+.listCont .listCreator {
+  width: 60%;
+}
+
+.listCont .listCreator form {
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  margin: 5% 0;
+  height: 15vh;
+  border-radius: 20px;
+  background-color: #5c4ed6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.listCont .listCreator form div.col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.listCont .listCreator form div.col h1 {
+  text-align: center;
+}
+
+.listCont .listCreator form div.col input {
+  height: 3vh;
+}
+
+.listCont .listCreator form div.col input:nth-child(1) {
+  width: 50%;
+}
+
+.listCont .listCreator form button {
+  font-size: 30px;
+  padding: 10px 20px;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: white;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.listCont .listCreator form button:hover {
+  -webkit-transform: scaleY(0.95) scaleX(1.05);
+          transform: scaleY(0.95) scaleX(1.05);
+}
+
+.listCont div.toBeDone {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.listCont div.toBeDone div.desc {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: #5c4ed6;
+  border-bottom: 2px solid black;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.listCont div.toBeDone div.desc div {
+  width: 100%;
+}
+
+.listCont div.toBeDone div.desc div h1 {
+  text-align: center;
+}
+
+.listCont div.toBeDone div.one {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.listCont div.toBeDone div.one div.dataList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-right: 2px solid black;
+  width: 100%;
+}
+
+.listCont div.toBeDone div.one div.dataList:nth-child(5) {
+  border: none;
+}
+
+.listCont div.toBeDone div.one div.dataList button {
+  padding: 3px;
+  font-family: 'Roboto', sans-serif;
+  border: none;
+  background-color: #8074ec;
+  font-weight: bold;
+  border-radius: 999px;
+  cursor: pointer;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.listCont div.toBeDone div.one div.dataList button:hover {
+  -webkit-transform: scaleY(0.95) scaleX(1.05);
+          transform: scaleY(0.95) scaleX(1.05);
+}
+
+.listCont div.toBeDone div.one div.dataList h2 {
+  text-align: center;
+}
+
+.whatHaveIDone {
+  position: absolute;
+  left: 1%;
+  font-size: 18px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 999px;
+  background-color: #8074ec;
+  cursor: pointer;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.whatHaveIDone:hover {
+  -webkit-transform: scaleY(0.95) scaleX(1.05);
+          transform: scaleY(0.95) scaleX(1.05);
+}
+
+div.weatherCont {
+  width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 5vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+div.weatherCont .currWeather {
+  padding: 3% 0;
+  width: 50%;
+  height: 100%;
+  background-color: blanchedalmond;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 400px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  -webkit-box-shadow: 2px 2px 9px 0px rgba(50, 50, 50, 0.75);
+          box-shadow: 2px 2px 9px 0px rgba(50, 50, 50, 0.75);
+}
+
+div.weatherCont h1.city {
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin: 1%;
+}
+
+div.weatherCont h2 {
+  font-size: 18px;
+  margin: 1%;
+}
+
+div.weatherCont h1.stopnie {
+  font-size: 50px;
+  margin: 1%;
+}
+
+div.weatherCont h1.des {
+  margin: 1%;
+}
+
+div.weatherCont h3 {
+  margin: 3% 0;
+}
+
+div.weatherCont button.newWeather {
+  border: none;
+  font-size: 20px;
+  padding: 8px 18px;
+  border-radius: 90999px;
+  margin: 4%;
+  cursor: pointer;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+div.weatherCont button.newWeather:hover {
+  -webkit-transform: scaleX(0.95) scaleY(0.95);
+          transform: scaleX(0.95) scaleY(0.95);
+}
+
+div.weatherCont h1.cityInput {
+  text-align: center;
+  font-size: 35px;
+  margin: 1%;
+}
+
+div.weatherCont form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div.weatherCont form input {
+  height: 35px;
+}
+
+div.weatherCont form button {
+  background-color: #8074ec;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 35px;
+  padding: 0 10px;
+  border: none;
+}
+
+div.currencyCont {
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 4% 0;
+}
+
+div.currencyCont div.ustawienie {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div.currencyCont div.ustawienie div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+div.currencyCont div.ustawienie div input {
+  width: 50%;
+  font-size: 16px;
+}
+
+div.currencyCont div.ustawienie div h1 {
+  text-align: center;
+}
+
+div.currencyCont div.wyniki {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+div.currencyCont div.wyniki h1 {
+  margin: 5%;
+}
+/*# sourceMappingURL=memory.css.map */
