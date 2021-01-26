@@ -10,7 +10,7 @@ export default function Note() {
         if(txtRef.current.value === '') return alert('Wypełnij pole')
         const newNotes = [...notes, {
             txt: txtRef.current.value,
-            id: notes.length,
+            id: Math.random(),
         }]
         setNotes(newNotes)
         

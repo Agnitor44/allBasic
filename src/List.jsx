@@ -15,7 +15,7 @@ export default function List() {
             txt: refTxt.current.value,
             date: refDate.current.value,
             on: on,
-            id: list.length
+            id: Math.random()
         }
         const newArray = [...list, newObj]
         setList(newArray)
