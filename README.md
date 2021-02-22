@@ -33,6 +33,6 @@ Nav is just small routing to the root path '/'.
 
 
 
-You can check out app in https://allbasic.netlify.app/weather
+You can check out app in https://allbasic.netlify.app
 
 Thank you for Your time 
