@@ -1,8 +1,8 @@
-This app is all about small things, which every developer should can. 
+This app is all about small things, which every developer should be able to do. 
 Nav is just small routing to the root path '/'. 
 
 
-1) Notes - Nothing to complicated. Modals where maden by @material-ui. 
+1) Notes - Nothing to complicated. Modals were made by @material-ui. 
 
 
 ![alt text](https://cdn.discordapp.com/attachments/630797359252504643/813244188018999296/unknown.png)
@@ -26,7 +26,7 @@ Nav is just small routing to the root path '/'.
 ![alt text](https://cdn.discordapp.com/attachments/630797359252504643/813246976312999976/unknown.png)
 
 
-5) CurrencyExchanger - Same as app befor, but this time i didn't find any good api at all :(
+5) CurrencyExchanger - Same as app before, but this time i didn't find any good api at all :(
 
 
 ![alt text](https://cdn.discordapp.com/attachments/630797359252504643/813247578279772190/unknown.png)
